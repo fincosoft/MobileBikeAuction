@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "GADMasterViewController.h"
+#import "SalesListViewController.h"
+#import "SellFormViewController.h"
 
 @class GADBannerView;
 

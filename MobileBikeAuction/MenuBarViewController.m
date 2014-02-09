@@ -37,7 +37,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    _bannerViewController = [GADMasterViewController genAdViewUnderView:self.menuListTable];
+    _bannerViewController = [GADMasterViewController genAdViewUnderView:self.view];
     [_bannerViewController resetAdView:self];
 }
 
@@ -68,6 +68,30 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UIViewController *nextViewController;
+    
+    NSLog(@"Selected Index: %d", indexPath.row);
+    
+    switch (indexPath.row)
+    {
+        case 0:
+            nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SalesListView"];
+            break;
+        case 1:
+            nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SellFormView"];
+            break;
+        default:
+            //[self performSegueWithIdentifier:@"segue.menu.push" sender:self];
+            //nextViewController = [[SalesListViewController alloc] init];
+            //nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SalesListView"];
+            break;
+    }
+    [self.navigationController pushViewController:nextViewController animated:YES];
+}
+
+#pragma mark -- AdMob Related
 - (void)adViewDidReceiveAd:(GADBannerView *)adView {
     NSLog(@"Ad Received");
     [UIView animateWithDuration:1.0 animations:^{

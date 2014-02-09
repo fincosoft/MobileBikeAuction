@@ -21,6 +21,8 @@
 		1DF3DFCF18A4D8AA006A2DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF3DFAE18A4D8A9006A2DD6 /* UIKit.framework */; };
 		1DF3DFD718A4D8AA006A2DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3DFD518A4D8AA006A2DD6 /* InfoPlist.strings */; };
 		1DF3DFD918A4D8AA006A2DD6 /* MobileBikeAuctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3DFD818A4D8AA006A2DD6 /* MobileBikeAuctionTests.m */; };
+		9D6FF47B18A7532400F19B81 /* SalesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FF47A18A7532400F19B81 /* SalesListViewController.m */; };
+		9D6FF47E18A7598200F19B81 /* SellFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FF47D18A7598200F19B81 /* SellFormViewController.m */; };
 		9D970BF518A67E8800FF246D /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D970BF418A67E8800FF246D /* libGoogleAdMobAds.a */; };
 		9D970BF718A67EA000FF246D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D970BF618A67EA000FF246D /* StoreKit.framework */; };
 		9D970BF918A67EB100FF246D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D970BF818A67EB100FF246D /* AdSupport.framework */; };
@@ -61,6 +63,10 @@
 		1DF3DFD418A4D8AA006A2DD6 /* MobileBikeAuctionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileBikeAuctionTests-Info.plist"; sourceTree = "<group>"; };
 		1DF3DFD618A4D8AA006A2DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DF3DFD818A4D8AA006A2DD6 /* MobileBikeAuctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBikeAuctionTests.m; sourceTree = "<group>"; };
+		9D6FF47918A7532400F19B81 /* SalesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesListViewController.h; sourceTree = "<group>"; };
+		9D6FF47A18A7532400F19B81 /* SalesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesListViewController.m; sourceTree = "<group>"; };
+		9D6FF47C18A7598200F19B81 /* SellFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellFormViewController.h; sourceTree = "<group>"; };
+		9D6FF47D18A7598200F19B81 /* SellFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SellFormViewController.m; sourceTree = "<group>"; };
 		9D970BEB18A67E8800FF246D /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdMobExtras.h; path = "../../../Downloads/GoogleAdMobAdsSdkiOS-6.5.1/GADAdMobExtras.h"; sourceTree = "<group>"; };
 		9D970BEC18A67E8800FF246D /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = "../../../Downloads/GoogleAdMobAdsSdkiOS-6.5.1/GADAdNetworkExtras.h"; sourceTree = "<group>"; };
 		9D970BED18A67E8800FF246D /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdSize.h; path = "../../../Downloads/GoogleAdMobAdsSdkiOS-6.5.1/GADAdSize.h"; sourceTree = "<group>"; };
@@ -163,6 +169,10 @@
 				1DF3DFB118A4D8A9006A2DD6 /* Supporting Files */,
 				9D970C0618A6910B00FF246D /* GADMasterViewController.h */,
 				9D970C0718A6910B00FF246D /* GADMasterViewController.m */,
+				9D6FF47918A7532400F19B81 /* SalesListViewController.h */,
+				9D6FF47A18A7532400F19B81 /* SalesListViewController.m */,
+				9D6FF47C18A7598200F19B81 /* SellFormViewController.h */,
+				9D6FF47D18A7598200F19B81 /* SellFormViewController.m */,
 			);
 			path = MobileBikeAuction;
 			sourceTree = "<group>";
@@ -325,6 +335,8 @@
 			files = (
 				1DF3DFBB18A4D8AA006A2DD6 /* AppDelegate.m in Sources */,
 				1DF3DFB718A4D8AA006A2DD6 /* main.m in Sources */,
+				9D6FF47E18A7598200F19B81 /* SellFormViewController.m in Sources */,
+				9D6FF47B18A7532400F19B81 /* SalesListViewController.m in Sources */,
 				9D970C0418A6836A00FF246D /* MenuBarViewController.m in Sources */,
 				9D970C0818A6910B00FF246D /* GADMasterViewController.m in Sources */,
 			);

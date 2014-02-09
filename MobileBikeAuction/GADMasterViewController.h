@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "GADBannerView.h"
-#import "GADRequest.h";
+#import "GADRequest.h"
 
 @class GADBannerView;
 
