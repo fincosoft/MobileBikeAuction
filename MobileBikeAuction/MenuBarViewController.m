@@ -72,7 +72,7 @@
 {
     UIViewController *nextViewController;
     
-    NSLog(@"Selected Index: %d", indexPath.row);
+    NSLog(@"Selected Index: %ld", (long)indexPath.row);
     
     switch (indexPath.row)
     {
