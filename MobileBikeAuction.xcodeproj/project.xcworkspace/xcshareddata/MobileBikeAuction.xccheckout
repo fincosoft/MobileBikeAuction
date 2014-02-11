@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6FCC214-66B4-422E-B8C5-D314E26F0EF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MobileBikeAuction</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82EED78B-D8E7-4CA1-9BFF-38C932B68201</key>
+		<string>https://github.com/fincosoft/MobileBikeAuction.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MobileBikeAuction.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82EED78B-D8E7-4CA1-9BFF-38C932B68201</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fincosoft/MobileBikeAuction.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82EED78B-D8E7-4CA1-9BFF-38C932B68201</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82EED78B-D8E7-4CA1-9BFF-38C932B68201</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MobileBikeAuction</string>
+		</dict>
+	</array>
+</dict>
+</plist>
