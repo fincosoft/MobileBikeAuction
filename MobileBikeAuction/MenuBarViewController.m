@@ -81,6 +81,8 @@
             break;
         case 1:
             nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SellFormView"];
+        case 2:
+            nextViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"FindView"];
             break;
         default:
             //[self performSegueWithIdentifier:@"segue.menu.push" sender:self];

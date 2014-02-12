@@ -23,6 +23,8 @@
 		1DF3DFCF18A4D8AA006A2DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF3DFAE18A4D8A9006A2DD6 /* UIKit.framework */; };
 		1DF3DFD718A4D8AA006A2DD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3DFD518A4D8AA006A2DD6 /* InfoPlist.strings */; };
 		1DF3DFD918A4D8AA006A2DD6 /* MobileBikeAuctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3DFD818A4D8AA006A2DD6 /* MobileBikeAuctionTests.m */; };
+		7173433A18ABC43700028F61 /* FindCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173433918ABC43700028F61 /* FindCarViewController.m */; };
+		7173433D18ABC90E00028F61 /* SaleCarPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7173433C18ABC90E00028F61 /* SaleCarPictureViewController.m */; };
 		9D6FF47B18A7532400F19B81 /* SalesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FF47A18A7532400F19B81 /* SalesListViewController.m */; };
 		9D6FF47E18A7598200F19B81 /* SellFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6FF47D18A7598200F19B81 /* SellFormViewController.m */; };
 		9D970BF718A67EA000FF246D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D970BF618A67EA000FF246D /* StoreKit.framework */; };
@@ -75,6 +77,10 @@
 		1DF3DFD418A4D8AA006A2DD6 /* MobileBikeAuctionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileBikeAuctionTests-Info.plist"; sourceTree = "<group>"; };
 		1DF3DFD618A4D8AA006A2DD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DF3DFD818A4D8AA006A2DD6 /* MobileBikeAuctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileBikeAuctionTests.m; sourceTree = "<group>"; };
+		7173433818ABC43700028F61 /* FindCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarViewController.h; sourceTree = "<group>"; };
+		7173433918ABC43700028F61 /* FindCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarViewController.m; sourceTree = "<group>"; };
+		7173433B18ABC90E00028F61 /* SaleCarPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleCarPictureViewController.h; sourceTree = "<group>"; };
+		7173433C18ABC90E00028F61 /* SaleCarPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleCarPictureViewController.m; sourceTree = "<group>"; };
 		9D6FF47918A7532400F19B81 /* SalesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesListViewController.h; sourceTree = "<group>"; };
 		9D6FF47A18A7532400F19B81 /* SalesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesListViewController.m; sourceTree = "<group>"; };
 		9D6FF47C18A7598200F19B81 /* SellFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SellFormViewController.h; sourceTree = "<group>"; };
@@ -173,8 +179,12 @@
 				9D970C0718A6910B00FF246D /* GADMasterViewController.m */,
 				9D6FF47918A7532400F19B81 /* SalesListViewController.h */,
 				9D6FF47A18A7532400F19B81 /* SalesListViewController.m */,
+				7173433B18ABC90E00028F61 /* SaleCarPictureViewController.h */,
+				7173433C18ABC90E00028F61 /* SaleCarPictureViewController.m */,
 				9D6FF47C18A7598200F19B81 /* SellFormViewController.h */,
 				9D6FF47D18A7598200F19B81 /* SellFormViewController.m */,
+				7173433818ABC43700028F61 /* FindCarViewController.h */,
+				7173433918ABC43700028F61 /* FindCarViewController.m */,
 			);
 			path = MobileBikeAuction;
 			sourceTree = "<group>";
@@ -341,8 +351,10 @@
 				1DF3DFB718A4D8AA006A2DD6 /* main.m in Sources */,
 				9D6FF47E18A7598200F19B81 /* SellFormViewController.m in Sources */,
 				9D6FF47B18A7532400F19B81 /* SalesListViewController.m in Sources */,
+				7173433A18ABC43700028F61 /* FindCarViewController.m in Sources */,
 				9D970C0418A6836A00FF246D /* MenuBarViewController.m in Sources */,
 				9D970C0818A6910B00FF246D /* GADMasterViewController.m in Sources */,
+				7173433D18ABC90E00028F61 /* SaleCarPictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,8 +499,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/skywalker/Downloads/GoogleAdMobAdsSdkiOS-6.5.1",
-					/Users/cybersaint/projects/MobileBikeAuction/MobileBikeAuction,
+					/Users/whiskey/projects/MobileBikeAuction/MobileBikeAuction,
+					/Users/whiskey/projects/MobileBikeAuction/MobileBikeAuction,
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,8 +522,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/skywalker/Downloads/GoogleAdMobAdsSdkiOS-6.5.1",
-					/Users/cybersaint/projects/MobileBikeAuction/MobileBikeAuction,
+					/Users/whiskey/projects/MobileBikeAuction/MobileBikeAuction,
+					/Users/whiskey/projects/MobileBikeAuction/MobileBikeAuction,
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
