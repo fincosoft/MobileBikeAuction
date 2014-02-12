@@ -97,6 +97,7 @@
                                 <rect key="frame" x="0.0" y="319" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qAe-Ho-TwW" id="WaP-Ks-oL4">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -340,7 +341,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="qf0-Ra-QUS"/>
-        <segue reference="7VD-co-Qxv"/>
+        <segue reference="QX9-Tw-KtE"/>
+        <segue reference="VtX-fZ-ZCN"/>
     </inferredMetricsTieBreakers>
 </document>
